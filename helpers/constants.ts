@@ -7,6 +7,7 @@ import {
   eHarmonyNetwork,
   eOptimismNetwork,
   ePolygonNetwork,
+  eMantleNetwork,
 } from "./types";
 
 const {
@@ -45,6 +46,7 @@ export const WRAPPED_NATIVE_TOKEN_PER_NETWORK: { [network: string]: string } = {
   [eFantomNetwork.main]: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
   [eHarmonyNetwork.main]: "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
   [ePolygonNetwork.polygon]: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+  [eMantleNetwork.testnet]: "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8"
 };
 
 export const ZERO_BYTES_32 =

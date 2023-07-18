@@ -14,6 +14,7 @@ import {
   eHarmonyNetwork,
   eOptimismNetwork,
   ePolygonNetwork,
+  eMantleNetwork,
   eTenderly,
 } from "./helpers/types";
 import { DEFAULT_NAMED_ACCOUNTS } from "./helpers/constants";
@@ -120,6 +121,10 @@ export default {
     [eArbitrumNetwork.goerliNitro]: getCommonNetworkConfig(
       eArbitrumNetwork.goerliNitro,
       421613
+    ),
+    [eMantleNetwork.testnet]: getCommonNetworkConfig(
+      eMantleNetwork.testnet,
+      5001
     ),
   },
   namedAccounts: {
